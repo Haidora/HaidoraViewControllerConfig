@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'HaidoraViewControllerConfig_Example', :exclusive => true do
+  pod "HaidoraViewControllerConfig", :path => "../"
+  pod 'Aspects'
+end
+
