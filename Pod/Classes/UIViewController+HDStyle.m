@@ -20,14 +20,30 @@
                  usingBlock:^(id<AspectInfo> aspectInfo) {
                    //注入逻辑
                    UIViewController *viewController = [aspectInfo instance];
-                   if ([HDStyleConfig sharedInstance].autoConfig &&
-                       [HDStyleConfig sharedInstance].viewControllerPrefix &&
-                       [NSStringFromClass([viewController class])
-                           hasPrefix:[HDStyleConfig sharedInstance].viewControllerPrefix])
+                   if ([HDStyleConfig sharedInstance].autoConfig)
                    {
-                       [viewController configDefaultBackgroundWith:[HDStyleConfig sharedInstance]
-                                                                       .backGroundColor];
+                       [[HDStyleConfig sharedInstance]
+                               .viewControllerPrefixs
+                           enumerateObjectsUsingBlock:^(NSString *obj, NSUInteger idx, BOOL *stop) {
+                             if ([obj isKindOfClass:[NSString class]])
+                             {
+                                 if ([NSStringFromClass([viewController class]) hasPrefix:obj])
+                                 {
+                                     [viewController
+                                         configDefaultBackgroundWith:[HDStyleConfig sharedInstance]
+                                                                         .backGroundColor];
+                                     *stop = YES;
+                                 }
+                             }
+                             else
+                             {
+                                 NSAssert(NO,
+                                          @"%@ in viewControllerPrefixs must subClass of NSString",
+                                          obj);
+                             }
+                           }];
                    }
+
                  } error:&error];
 #ifdef DEBUG
     if (error)
@@ -51,6 +67,12 @@
 
 @end
 
+@interface HDStyleConfig ()
+
+@property (nonatomic, strong, readwrite) NSMutableArray *viewControllerPrefixs;
+
+@end
+
 @implementation HDStyleConfig
 
 static HDStyleConfig *sharedHDStyleConfig = nil;
@@ -64,6 +86,15 @@ static HDStyleConfig *sharedHDStyleConfig = nil;
       sharedHDStyleConfig.backGroundColor = [UIColor whiteColor];
     });
     return sharedHDStyleConfig;
+}
+
+- (NSMutableArray *)viewControllerPrefixs
+{
+    if (nil == _viewControllerPrefixs)
+    {
+        _viewControllerPrefixs = [[NSMutableArray alloc] init];
+    }
+    return _viewControllerPrefixs;
 }
 
 @end

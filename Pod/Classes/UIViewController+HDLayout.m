@@ -20,13 +20,28 @@
                  usingBlock:^(id<AspectInfo> aspectInfo) {
                    //注入逻辑
                    UIViewController *viewController = [aspectInfo instance];
-                   if ([HDLayoutConfig sharedInstance].autoConfig &&
-                       [HDLayoutConfig sharedInstance].viewControllerPrefix &&
-                       [NSStringFromClass([viewController class])
-                           hasPrefix:[HDLayoutConfig sharedInstance].viewControllerPrefix])
+                   if ([HDLayoutConfig sharedInstance].autoConfig)
                    {
-                       [viewController configEdgesForExtendedLayout];
+                       [[HDLayoutConfig sharedInstance]
+                               .viewControllerPrefixs
+                           enumerateObjectsUsingBlock:^(NSString *obj, NSUInteger idx, BOOL *stop) {
+                             if ([obj isKindOfClass:[NSString class]])
+                             {
+                                 if ([NSStringFromClass([viewController class]) hasPrefix:obj])
+                                 {
+                                     [viewController configEdgesForExtendedLayout];
+                                     *stop = YES;
+                                 }
+                             }
+                             else
+                             {
+                                 NSAssert(NO,
+                                          @"%@ in viewControllerPrefixs must subClass of NSString",
+                                          obj);
+                             }
+                           }];
                    }
+
                  } error:&error];
 #ifdef DEBUG
     if (error)
@@ -46,6 +61,12 @@
 
 @end
 
+@interface HDLayoutConfig ()
+
+@property (nonatomic, strong, readwrite) NSMutableArray *viewControllerPrefixs;
+
+@end
+
 @implementation HDLayoutConfig
 
 static HDLayoutConfig *sharedHDLayoutConfig = nil;
@@ -58,6 +79,15 @@ static HDLayoutConfig *sharedHDLayoutConfig = nil;
       sharedHDLayoutConfig.autoConfig = NO;
     });
     return sharedHDLayoutConfig;
+}
+
+- (NSMutableArray *)viewControllerPrefixs
+{
+    if (nil == _viewControllerPrefixs)
+    {
+        _viewControllerPrefixs = [[NSMutableArray alloc] init];
+    }
+    return _viewControllerPrefixs;
 }
 
 @end

@@ -31,9 +31,9 @@
 @property (nonatomic, assign) BOOL autoConfig;
 
 /**
- *  ViewController前缀(为了区分自定义的VC和第三方VC),默认为空.
+ *  ViewController前缀(为了区分自定义的VC和第三方VC),默认为空.Array会自动创建
  */
-@property (nonatomic, strong) NSString *viewControllerPrefix;
+@property (nonatomic, strong, readonly) NSMutableArray *viewControllerPrefixs;
 
 + (HDLayoutConfig *)sharedInstance;
 
