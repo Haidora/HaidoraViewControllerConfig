@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+HDStyle.h"
-#import <Aspects.h>
+#import <Aspects/Aspects.h>
 
 @implementation UIViewController (HDStyle)
 

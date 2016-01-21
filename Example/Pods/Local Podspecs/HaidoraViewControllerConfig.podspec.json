@@ -2,14 +2,14 @@
   "name": "HaidoraViewControllerConfig",
   "version": "0.1.0",
   "summary": "ViewController一些常用配置.",
-  "description": "                       An optional longer description of HaidoraViewControllerConfig\n",
-  "homepage": "https://github.com/HaidoraBase/HaidoraViewControllerConfig",
+  "description": "ViewController一些常用配置.(背景,布局等)",
+  "homepage": "https://github.com/Haidora/HaidoraViewControllerConfig",
   "license": "MIT",
   "authors": {
     "mrdaios": "mrdaios@gmail.com"
   },
   "source": {
-    "git": "https://github.com/HaidoraBase/HaidoraViewControllerConfig.git",
+    "git": "https://github.com/Haidora/HaidoraViewControllerConfig.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_HaidoraViewControllerConfig_Example_HaidoraViewControllerConfig : NSObject
-@end
-@implementation PodsDummy_Pods_HaidoraViewControllerConfig_Example_HaidoraViewControllerConfig
-@end

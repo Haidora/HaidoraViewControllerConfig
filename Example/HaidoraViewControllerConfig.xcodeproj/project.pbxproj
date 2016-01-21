@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FDDBBCBC34D556DACF6320B /* Pods_HaidoraViewControllerConfig_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBF5195E0F6613EC8244DBE /* Pods_HaidoraViewControllerConfig_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -16,12 +17,11 @@
 		6003F5A7195388D20070C39A /* HDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HDViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		ADAEF4AAD727A38D8D322D05 /* libPods-HaidoraViewControllerConfig_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EAE12AB980877318E5CC70 /* libPods-HaidoraViewControllerConfig_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01EAE12AB980877318E5CC70 /* libPods-HaidoraViewControllerConfig_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraViewControllerConfig_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		055485E4366EB886ECB13B01 /* Pods-HaidoraViewControllerConfig_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraViewControllerConfig_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraViewControllerConfig_Example/Pods-HaidoraViewControllerConfig_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0FBF5195E0F6613EC8244DBE /* Pods_HaidoraViewControllerConfig_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraViewControllerConfig_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CEAE0D22CF013D39A5ACCB /* Pods-HaidoraViewControllerConfig_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraViewControllerConfig_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaidoraViewControllerConfig_Tests/Pods-HaidoraViewControllerConfig_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HaidoraViewControllerConfig_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaidoraViewControllerConfig_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,7 +54,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				ADAEF4AAD727A38D8D322D05 /* libPods-HaidoraViewControllerConfig_Example.a in Frameworks */,
+				1FDDBBCBC34D556DACF6320B /* Pods_HaidoraViewControllerConfig_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				BE594F6207DE51CD31ED5BE7 /* Pods_HaidoraViewControllerConfig_Tests.framework */,
-				01EAE12AB980877318E5CC70 /* libPods-HaidoraViewControllerConfig_Example.a */,
+				0FBF5195E0F6613EC8244DBE /* Pods_HaidoraViewControllerConfig_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +152,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				F8EC010AB3518C0196577CCC /* Copy Pods Resources */,
+				E7AC94F505050A4D5C835727 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +218,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7AC94F505050A4D5C835727 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaidoraViewControllerConfig_Example/Pods-HaidoraViewControllerConfig_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F8EC010AB3518C0196577CCC /* Copy Pods Resources */ = {

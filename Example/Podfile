@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-
+use_frameworks!
 target 'HaidoraViewControllerConfig_Example', :exclusive => true do
   pod "HaidoraViewControllerConfig", :path => "../"
   pod 'Aspects'

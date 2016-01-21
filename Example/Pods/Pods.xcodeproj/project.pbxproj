@@ -7,417 +7,434 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030C0B865842C9694D0E6D6C /* UIViewController+HDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C1563DF42D69B2416C33F128 /* UIViewController+HDStyle.m */; };
-		0C7490C210D528DC4C214994 /* Pods-HaidoraViewControllerConfig_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C71EFEE18B23D0BB35C126CD /* Pods-HaidoraViewControllerConfig_Example-dummy.m */; };
-		142168B93C25DA0EBD6176F9 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A1E92B1EE529BEDB1062A5 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-dummy.m */; };
-		2D76B7166ACC0264B1EA9E17 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = B254ADB6DB98F97217D61862 /* Aspects.m */; };
-		4593AA7BA5ADF5AEE7A50F4D /* UIViewController+HDStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8678F639174FE966CA696C /* UIViewController+HDStyle.h */; };
-		4E27994956B274A3D8AE7141 /* UIViewController+HDLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA73D209D6DD5A86F90BD1E4 /* UIViewController+HDLayout.h */; };
-		85D76052A79A8AB804FAB943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE25764E33C0890F9C68ED /* Foundation.framework */; };
-		8E9A3A0224CAC52ECAB01BF3 /* UIViewController+HDLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9624C885735BAE04D2F4E0BF /* UIViewController+HDLayout.m */; };
-		99D5373102EC87187A31A98B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE25764E33C0890F9C68ED /* Foundation.framework */; };
-		C14435EB4E4067ACDEFFBB5F /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F113761AFF707EFC560701 /* Aspects.h */; };
-		E1175C54118AE8AA6A7C3887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE25764E33C0890F9C68ED /* Foundation.framework */; };
-		E9615B24AD60261013056A51 /* Pods-HaidoraViewControllerConfig_Example-Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C2AE3D27E1E9E9912EBFFE /* Pods-HaidoraViewControllerConfig_Example-Aspects-dummy.m */; };
-		EA404CAF4106A474C6D4D8A9 /* HaidoraViewControllerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C667FD08E84AC269744D6E /* HaidoraViewControllerConfig.h */; };
+		0968AF6BE918A41E77F3BF135A27EA67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146CE0A892F0E8AFE71924CBA0A22A96 /* Foundation.framework */; };
+		120EF82C21456ADD7D6E1BB776C1668A /* UIViewController+HDLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C126EDB999F75364A19EF5CB648F46E /* UIViewController+HDLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		138CC4FA22DB96524379B314EF64D5FA /* HaidoraViewControllerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE1D1FAEF6C3CBEA0D2CF6947D1BD2D /* HaidoraViewControllerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4927D980EB038B019BE534AA57A3A55A /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = D80453B2EF0E41E0957FE769D386DAAD /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71EEADDB4B3A55E45207153836251848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146CE0A892F0E8AFE71924CBA0A22A96 /* Foundation.framework */; };
+		76ACA196BF3B9679688E90BDB40593EA /* HaidoraViewControllerConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ED034445678E136A13FC294C659A60 /* HaidoraViewControllerConfig-dummy.m */; };
+		807E5FF8EE28F21CB0554A9BC84E9720 /* UIViewController+HDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D57A1BE499552E768DC6D5C0F4C1308A /* UIViewController+HDStyle.m */; };
+		839AC19FD3A0ACD7FCEBF5BA75716551 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5CB00BF6A65E5261E4B4E6EE36DD98 /* Aspects.m */; };
+		99355B3A4208CEEA655B60AB7D675FC5 /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E60A81337DB5390B780FE7FAD7A833F /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ACB756A2ED7AC4FBDDA96ED71EECFEF /* HaidoraViewControllerConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F5D860D264080EFC7C35C57A86118E /* HaidoraViewControllerConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A306E52E9794DE7D2A6D066FDAC243DB /* Pods-HaidoraViewControllerConfig_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6643505F9C847F2351DF547BE3DA875 /* Pods-HaidoraViewControllerConfig_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B67CD88A6342AEFFF459A8E3F8F8B8C1 /* UIViewController+HDLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B47E717FCC60E1E45DDECD51137ADF7A /* UIViewController+HDLayout.m */; };
+		BFEBC6EFDEA6FAB274CEA8F8963235B6 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3009879A71025C8B91799FF3173C8849 /* Aspects-dummy.m */; };
+		E31271F3CE0739606F06E5DFDEC09F2A /* Aspects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B7DD3315BF2B3C6A49CF99C638AA96 /* Aspects.framework */; };
+		F7FD0E4DBF3D03A1394969C2910ACCD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146CE0A892F0E8AFE71924CBA0A22A96 /* Foundation.framework */; };
+		FE69AF07A491C0955B46348F95201DBE /* UIViewController+HDStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = B20BC8A3FD753B60737634FCC220FB56 /* UIViewController+HDStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFBA38BF4011F9CFDB6B892EE540A1FF /* Pods-HaidoraViewControllerConfig_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E869E9530CEA313B02D4674EE1912B96 /* Pods-HaidoraViewControllerConfig_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F8D81CEFC35A4D9EE8C6B9C /* PBXContainerItemProxy */ = {
+		5F21258CD671C3264E5B51A0FC2C2608 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1E3182199C21FA06BD23EB3 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8280FE91BC08279A244232D3;
-			remoteInfo = "Pods-HaidoraViewControllerConfig_Example-Aspects";
+			remoteGlobalIDString = BE5BD1610EDEC8E220AFE8713C7E4282;
+			remoteInfo = HaidoraViewControllerConfig;
 		};
-		AC67CEDFF3FAB69099E4C86E /* PBXContainerItemProxy */ = {
+		8CBF3316F0A25C7FB2634402ADF0C0EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1E3182199C21FA06BD23EB3 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A45CB3BE9A759E32A6694003;
-			remoteInfo = "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig";
+			remoteGlobalIDString = C766897D56D8A815526A1B61D99EA0CA;
+			remoteInfo = Aspects;
 		};
-		F43D97F6C48083DDE7381B8A /* PBXContainerItemProxy */ = {
+		BED01E501AA5836F731C5595294D1649 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1E3182199C21FA06BD23EB3 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8280FE91BC08279A244232D3;
-			remoteInfo = "Pods-HaidoraViewControllerConfig_Example-Aspects";
+			remoteGlobalIDString = C766897D56D8A815526A1B61D99EA0CA;
+			remoteInfo = Aspects;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		067DFA6704E214B22C56DC1F /* Pods-HaidoraViewControllerConfig_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraViewControllerConfig_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		086AF8A998692A055640ADCF /* Pods-HaidoraViewControllerConfig_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraViewControllerConfig_Example-environment.h"; sourceTree = "<group>"; };
-		0F0A9395A04239B099FE9A64 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-Private.xcconfig"; sourceTree = "<group>"; };
-		10C667FD08E84AC269744D6E /* HaidoraViewControllerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraViewControllerConfig.h; sourceTree = "<group>"; };
-		25A6E15DC4C989CD61685D95 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		32BF47FAD2CC647101CA0C3B /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-prefix.pch"; sourceTree = "<group>"; };
-		3392C25644EF52872E4CEE6E /* libPods-HaidoraViewControllerConfig_Example-Aspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraViewControllerConfig_Example-Aspects.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B3018FBAF0872BAD6BC19EB /* Pods-HaidoraViewControllerConfig_Example-Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraViewControllerConfig_Example-Aspects.xcconfig"; sourceTree = "<group>"; };
-		3C8678F639174FE966CA696C /* UIViewController+HDStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HDStyle.h"; sourceTree = "<group>"; };
-		480D6C2632A91BB3CC700A10 /* Pods-HaidoraViewControllerConfig_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraViewControllerConfig_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5D1246AA5584B1A9D01A51BE /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig.xcconfig"; sourceTree = "<group>"; };
-		67C34BB5838E65459C89DE19 /* Pods-HaidoraViewControllerConfig_Example-Aspects-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraViewControllerConfig_Example-Aspects-Private.xcconfig"; sourceTree = "<group>"; };
-		72A1E92B1EE529BEDB1062A5 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-dummy.m"; sourceTree = "<group>"; };
-		75C2AE3D27E1E9E9912EBFFE /* Pods-HaidoraViewControllerConfig_Example-Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraViewControllerConfig_Example-Aspects-dummy.m"; sourceTree = "<group>"; };
-		82CE25764E33C0890F9C68ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		944E677047622E0897FF7399 /* Pods-HaidoraViewControllerConfig_Example-Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraViewControllerConfig_Example-Aspects-prefix.pch"; sourceTree = "<group>"; };
-		9624C885735BAE04D2F4E0BF /* UIViewController+HDLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HDLayout.m"; sourceTree = "<group>"; };
-		A8F113761AFF707EFC560701 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
-		AA73D209D6DD5A86F90BD1E4 /* UIViewController+HDLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HDLayout.h"; sourceTree = "<group>"; };
-		AC83FA0EC14CB20F7BC51BE9 /* libPods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF09A0D9552609C17BD80C95 /* Pods-HaidoraViewControllerConfig_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraViewControllerConfig_Example-resources.sh"; sourceTree = "<group>"; };
-		B254ADB6DB98F97217D61862 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
-		C1563DF42D69B2416C33F128 /* UIViewController+HDStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HDStyle.m"; sourceTree = "<group>"; };
-		C314474DB20B50372F13CE8E /* libPods-HaidoraViewControllerConfig_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraViewControllerConfig_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3A8BCC69F67F5484A2B1246 /* Pods-HaidoraViewControllerConfig_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraViewControllerConfig_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C71EFEE18B23D0BB35C126CD /* Pods-HaidoraViewControllerConfig_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraViewControllerConfig_Example-dummy.m"; sourceTree = "<group>"; };
-		DC9B7B93B0B25B3DBE04E44D /* Pods-HaidoraViewControllerConfig_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraViewControllerConfig_Example.release.xcconfig"; sourceTree = "<group>"; };
+		04466283889CADEF5D88073D9247CBFD /* Pods-HaidoraViewControllerConfig_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraViewControllerConfig_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		146CE0A892F0E8AFE71924CBA0A22A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1C126EDB999F75364A19EF5CB648F46E /* UIViewController+HDLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HDLayout.h"; sourceTree = "<group>"; };
+		2E16F509D6272D338FD303B89D662B0A /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Aspects.modulemap; sourceTree = "<group>"; };
+		3009879A71025C8B91799FF3173C8849 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		4E60A81337DB5390B780FE7FAD7A833F /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
+		55778B4DDCAA407FB1C6CD0F675E6FD3 /* Pods-HaidoraViewControllerConfig_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraViewControllerConfig_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F3A6FD6B9AF1034CEFDB0EDE71658F5 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8812F8C7614044C4D8733969CC26A6 /* HaidoraViewControllerConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HaidoraViewControllerConfig.modulemap; sourceTree = "<group>"; };
+		6CC34C0A14050F474FEB2D62E682D23A /* Pods-HaidoraViewControllerConfig_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraViewControllerConfig_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7136707F34DE363A79CEF43EBD3AE2E8 /* HaidoraViewControllerConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaidoraViewControllerConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A70EC76D40D34F263F8830AC8397BA0 /* HaidoraViewControllerConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraViewControllerConfig-prefix.pch"; sourceTree = "<group>"; };
+		96A5D8FD3009A20633970ABDB60503C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B7DD3315BF2B3C6A49CF99C638AA96 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B74727E40AA7AB677D7F9074EA9B15 /* Pods-HaidoraViewControllerConfig_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraViewControllerConfig_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B20BC8A3FD753B60737634FCC220FB56 /* UIViewController+HDStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HDStyle.h"; sourceTree = "<group>"; };
+		B47E717FCC60E1E45DDECD51137ADF7A /* UIViewController+HDLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HDLayout.m"; sourceTree = "<group>"; };
+		B53B9AC60D1CB7F59A29484AA3B7872F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B639B7ABEC1F2544813FBD514FA4AB6D /* Pods-HaidoraViewControllerConfig_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaidoraViewControllerConfig_Example.modulemap"; sourceTree = "<group>"; };
+		B75FCC807456676538D461D20C26F36D /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBF640BC21DC3A27E649A0B7BFBD921E /* Pods_HaidoraViewControllerConfig_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraViewControllerConfig_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5CB00BF6A65E5261E4B4E6EE36DD98 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		BCE1D1FAEF6C3CBEA0D2CF6947D1BD2D /* HaidoraViewControllerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraViewControllerConfig.h; sourceTree = "<group>"; };
+		C2ED034445678E136A13FC294C659A60 /* HaidoraViewControllerConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaidoraViewControllerConfig-dummy.m"; sourceTree = "<group>"; };
+		C9A085D8A5E81CB82C742B7350E4BE93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F5D860D264080EFC7C35C57A86118E /* HaidoraViewControllerConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraViewControllerConfig-umbrella.h"; sourceTree = "<group>"; };
+		D57A1BE499552E768DC6D5C0F4C1308A /* UIViewController+HDStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HDStyle.m"; sourceTree = "<group>"; };
+		D6643505F9C847F2351DF547BE3DA875 /* Pods-HaidoraViewControllerConfig_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraViewControllerConfig_Example-umbrella.h"; sourceTree = "<group>"; };
+		D80453B2EF0E41E0957FE769D386DAAD /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		DC0A0B6C0A8EF378BA0A7F4A4F505A0F /* Pods-HaidoraViewControllerConfig_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraViewControllerConfig_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB1E8388CABA7088704625E2F3E000E /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
+		E0AD70904CA5E7A527C75DB2B9FC6134 /* HaidoraViewControllerConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaidoraViewControllerConfig.xcconfig; sourceTree = "<group>"; };
+		E71120D01B66A9A657197C1D027E28CB /* Pods-HaidoraViewControllerConfig_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraViewControllerConfig_Example-resources.sh"; sourceTree = "<group>"; };
+		E869E9530CEA313B02D4674EE1912B96 /* Pods-HaidoraViewControllerConfig_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraViewControllerConfig_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0998B85BF07D821E6F6D78B6 /* Frameworks */ = {
+		9843942609A18136411AC2A88314A5E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D76052A79A8AB804FAB943 /* Foundation.framework in Frameworks */,
+				0968AF6BE918A41E77F3BF135A27EA67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BD8C77516AA249C35244FB6 /* Frameworks */ = {
+		CD05F86C5E29EE005F9F0BE868CCF647 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D5373102EC87187A31A98B /* Foundation.framework in Frameworks */,
+				E31271F3CE0739606F06E5DFDEC09F2A /* Aspects.framework in Frameworks */,
+				F7FD0E4DBF3D03A1394969C2910ACCD1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2F877419C53BD2932F7D609 /* Frameworks */ = {
+		D2B30C33B286A889588F5BAE789E9485 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1175C54118AE8AA6A7C3887 /* Foundation.framework in Frameworks */,
+				71EEADDB4B3A55E45207153836251848 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A43EBB10DFF47DF1A85A1F5 /* Development Pods */ = {
+		150ACDE4BED4EF0F47731D1A9815AB88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EC43917A777D5509C200020 /* HaidoraViewControllerConfig */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0AC14443D8787665CCB4F7CF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B9D6ECDE8408119C12C9FAF /* Pods-HaidoraViewControllerConfig_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3B9D6ECDE8408119C12C9FAF /* Pods-HaidoraViewControllerConfig_Example */ = {
-			isa = PBXGroup;
-			children = (
-				C3A8BCC69F67F5484A2B1246 /* Pods-HaidoraViewControllerConfig_Example-acknowledgements.markdown */,
-				067DFA6704E214B22C56DC1F /* Pods-HaidoraViewControllerConfig_Example-acknowledgements.plist */,
-				C71EFEE18B23D0BB35C126CD /* Pods-HaidoraViewControllerConfig_Example-dummy.m */,
-				086AF8A998692A055640ADCF /* Pods-HaidoraViewControllerConfig_Example-environment.h */,
-				AF09A0D9552609C17BD80C95 /* Pods-HaidoraViewControllerConfig_Example-resources.sh */,
-				480D6C2632A91BB3CC700A10 /* Pods-HaidoraViewControllerConfig_Example.debug.xcconfig */,
-				DC9B7B93B0B25B3DBE04E44D /* Pods-HaidoraViewControllerConfig_Example.release.xcconfig */,
-			);
-			name = "Pods-HaidoraViewControllerConfig_Example";
-			path = "Target Support Files/Pods-HaidoraViewControllerConfig_Example";
-			sourceTree = "<group>";
-		};
-		43F559DBF39D55FF9074770A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B3018FBAF0872BAD6BC19EB /* Pods-HaidoraViewControllerConfig_Example-Aspects.xcconfig */,
-				67C34BB5838E65459C89DE19 /* Pods-HaidoraViewControllerConfig_Example-Aspects-Private.xcconfig */,
-				75C2AE3D27E1E9E9912EBFFE /* Pods-HaidoraViewControllerConfig_Example-Aspects-dummy.m */,
-				944E677047622E0897FF7399 /* Pods-HaidoraViewControllerConfig_Example-Aspects-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-HaidoraViewControllerConfig_Example-Aspects";
-			sourceTree = "<group>";
-		};
-		4523A6FC66FF9AF9F6B895C7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C314474DB20B50372F13CE8E /* libPods-HaidoraViewControllerConfig_Example.a */,
-				3392C25644EF52872E4CEE6E /* libPods-HaidoraViewControllerConfig_Example-Aspects.a */,
-				AC83FA0EC14CB20F7BC51BE9 /* libPods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig.a */,
+				5F3A6FD6B9AF1034CEFDB0EDE71658F5 /* Aspects.framework */,
+				7136707F34DE363A79CEF43EBD3AE2E8 /* HaidoraViewControllerConfig.framework */,
+				BBF640BC21DC3A27E649A0B7BFBD921E /* Pods_HaidoraViewControllerConfig_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45A8B26AF99D31ECE5AEA84C /* Support Files */ = {
+		15DA1AFBA542940A110C62BFA61D509D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5D1246AA5584B1A9D01A51BE /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig.xcconfig */,
-				0F0A9395A04239B099FE9A64 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-Private.xcconfig */,
-				72A1E92B1EE529BEDB1062A5 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-dummy.m */,
-				32BF47FAD2CC647101CA0C3B /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-prefix.pch */,
+				BD37B620D6D32C3D08775DE9332E3404 /* HaidoraViewControllerConfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4FD74CE872E4A3E9D7D55CD5 /* iOS */ = {
+		19DBFEBFDE0E55898974DAC4893CB1EA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				82CE25764E33C0890F9C68ED /* Foundation.framework */,
+				BCE1D1FAEF6C3CBEA0D2CF6947D1BD2D /* HaidoraViewControllerConfig.h */,
+				1C126EDB999F75364A19EF5CB648F46E /* UIViewController+HDLayout.h */,
+				B47E717FCC60E1E45DDECD51137ADF7A /* UIViewController+HDLayout.m */,
+				B20BC8A3FD753B60737634FCC220FB56 /* UIViewController+HDStyle.h */,
+				D57A1BE499552E768DC6D5C0F4C1308A /* UIViewController+HDStyle.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		48C44DF258C308BFD0DD69E3DFE80CC6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5E5080B71AAAE294D5C1A750170AE91 /* Pods-HaidoraViewControllerConfig_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51EE9D20E124FA964B4A5D85FB7A9B9E /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				D80453B2EF0E41E0957FE769D386DAAD /* Aspects.h */,
+				BC5CB00BF6A65E5261E4B4E6EE36DD98 /* Aspects.m */,
+				9A2CC22E53C2E6C900CD5E06BA6E1120 /* Support Files */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		6C89B2D085C9D694CE3E1E1AC7EE7E98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F8812F8C7614044C4D8733969CC26A6 /* HaidoraViewControllerConfig.modulemap */,
+				E0AD70904CA5E7A527C75DB2B9FC6134 /* HaidoraViewControllerConfig.xcconfig */,
+				C2ED034445678E136A13FC294C659A60 /* HaidoraViewControllerConfig-dummy.m */,
+				7A70EC76D40D34F263F8830AC8397BA0 /* HaidoraViewControllerConfig-prefix.pch */,
+				D1F5D860D264080EFC7C35C57A86118E /* HaidoraViewControllerConfig-umbrella.h */,
+				C9A085D8A5E81CB82C742B7350E4BE93 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HaidoraViewControllerConfig";
+			sourceTree = "<group>";
+		};
+		70CF750D3F1A777299E1ADD3201A21E0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				19DBFEBFDE0E55898974DAC4893CB1EA /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				15DA1AFBA542940A110C62BFA61D509D /* Development Pods */,
+				C08A3B42F156256FEA82D45C5C02B375 /* Frameworks */,
+				F44F05A8F527D3FE55781A7396EFE39E /* Pods */,
+				150ACDE4BED4EF0F47731D1A9815AB88 /* Products */,
+				48C44DF258C308BFD0DD69E3DFE80CC6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F490CACCF9CF8480F90229FD2796E8C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				146CE0A892F0E8AFE71924CBA0A22A96 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5EC43917A777D5509C200020 /* HaidoraViewControllerConfig */ = {
+		9A2CC22E53C2E6C900CD5E06BA6E1120 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC177690B47E22E02A211300 /* Pod */,
-				45A8B26AF99D31ECE5AEA84C /* Support Files */,
+				2E16F509D6272D338FD303B89D662B0A /* Aspects.modulemap */,
+				DEB1E8388CABA7088704625E2F3E000E /* Aspects.xcconfig */,
+				3009879A71025C8B91799FF3173C8849 /* Aspects-dummy.m */,
+				B75FCC807456676538D461D20C26F36D /* Aspects-prefix.pch */,
+				4E60A81337DB5390B780FE7FAD7A833F /* Aspects-umbrella.h */,
+				B53B9AC60D1CB7F59A29484AA3B7872F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		BD37B620D6D32C3D08775DE9332E3404 /* HaidoraViewControllerConfig */ = {
+			isa = PBXGroup;
+			children = (
+				70CF750D3F1A777299E1ADD3201A21E0 /* Pod */,
+				6C89B2D085C9D694CE3E1E1AC7EE7E98 /* Support Files */,
 			);
 			name = HaidoraViewControllerConfig;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		6FE559E1F62C9186A326C70E /* Pods */ = {
+		C08A3B42F156256FEA82D45C5C02B375 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FB0B54D3E946F919C2BBF92A /* Aspects */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		73E17DB3629866DFCCFA82CC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4FD74CE872E4A3E9D7D55CD5 /* iOS */,
+				96B7DD3315BF2B3C6A49CF99C638AA96 /* Aspects.framework */,
+				7F490CACCF9CF8480F90229FD2796E8C /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CC177690B47E22E02A211300 /* Pod */ = {
+		C5E5080B71AAAE294D5C1A750170AE91 /* Pods-HaidoraViewControllerConfig_Example */ = {
 			isa = PBXGroup;
 			children = (
-				FF5731DC7CACD3A473E0D6CA /* Classes */,
+				96A5D8FD3009A20633970ABDB60503C6 /* Info.plist */,
+				B639B7ABEC1F2544813FBD514FA4AB6D /* Pods-HaidoraViewControllerConfig_Example.modulemap */,
+				04466283889CADEF5D88073D9247CBFD /* Pods-HaidoraViewControllerConfig_Example-acknowledgements.markdown */,
+				55778B4DDCAA407FB1C6CD0F675E6FD3 /* Pods-HaidoraViewControllerConfig_Example-acknowledgements.plist */,
+				E869E9530CEA313B02D4674EE1912B96 /* Pods-HaidoraViewControllerConfig_Example-dummy.m */,
+				A3B74727E40AA7AB677D7F9074EA9B15 /* Pods-HaidoraViewControllerConfig_Example-frameworks.sh */,
+				E71120D01B66A9A657197C1D027E28CB /* Pods-HaidoraViewControllerConfig_Example-resources.sh */,
+				D6643505F9C847F2351DF547BE3DA875 /* Pods-HaidoraViewControllerConfig_Example-umbrella.h */,
+				DC0A0B6C0A8EF378BA0A7F4A4F505A0F /* Pods-HaidoraViewControllerConfig_Example.debug.xcconfig */,
+				6CC34C0A14050F474FEB2D62E682D23A /* Pods-HaidoraViewControllerConfig_Example.release.xcconfig */,
 			);
-			path = Pod;
+			name = "Pods-HaidoraViewControllerConfig_Example";
+			path = "Target Support Files/Pods-HaidoraViewControllerConfig_Example";
 			sourceTree = "<group>";
 		};
-		D5393D917935AB968561E6AE = {
+		F44F05A8F527D3FE55781A7396EFE39E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				25A6E15DC4C989CD61685D95 /* Podfile */,
-				0A43EBB10DFF47DF1A85A1F5 /* Development Pods */,
-				73E17DB3629866DFCCFA82CC /* Frameworks */,
-				6FE559E1F62C9186A326C70E /* Pods */,
-				4523A6FC66FF9AF9F6B895C7 /* Products */,
-				0AC14443D8787665CCB4F7CF /* Targets Support Files */,
+				51EE9D20E124FA964B4A5D85FB7A9B9E /* Aspects */,
 			);
-			sourceTree = "<group>";
-		};
-		FB0B54D3E946F919C2BBF92A /* Aspects */ = {
-			isa = PBXGroup;
-			children = (
-				A8F113761AFF707EFC560701 /* Aspects.h */,
-				B254ADB6DB98F97217D61862 /* Aspects.m */,
-				43F559DBF39D55FF9074770A /* Support Files */,
-			);
-			path = Aspects;
-			sourceTree = "<group>";
-		};
-		FF5731DC7CACD3A473E0D6CA /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				10C667FD08E84AC269744D6E /* HaidoraViewControllerConfig.h */,
-				AA73D209D6DD5A86F90BD1E4 /* UIViewController+HDLayout.h */,
-				9624C885735BAE04D2F4E0BF /* UIViewController+HDLayout.m */,
-				3C8678F639174FE966CA696C /* UIViewController+HDStyle.h */,
-				C1563DF42D69B2416C33F128 /* UIViewController+HDStyle.m */,
-			);
-			path = Classes;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1813EBD19A4A6059FFC6784B /* Headers */ = {
+		53AE66ED8B2C97161AAA23A7960556A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA404CAF4106A474C6D4D8A9 /* HaidoraViewControllerConfig.h in Headers */,
-				4E27994956B274A3D8AE7141 /* UIViewController+HDLayout.h in Headers */,
-				4593AA7BA5ADF5AEE7A50F4D /* UIViewController+HDStyle.h in Headers */,
+				9ACB756A2ED7AC4FBDDA96ED71EECFEF /* HaidoraViewControllerConfig-umbrella.h in Headers */,
+				138CC4FA22DB96524379B314EF64D5FA /* HaidoraViewControllerConfig.h in Headers */,
+				120EF82C21456ADD7D6E1BB776C1668A /* UIViewController+HDLayout.h in Headers */,
+				FE69AF07A491C0955B46348F95201DBE /* UIViewController+HDStyle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A51A87762A419508D5A315F /* Headers */ = {
+		6C52BCD4AAADEA15A222E612A50028A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14435EB4E4067ACDEFFBB5F /* Aspects.h in Headers */,
+				A306E52E9794DE7D2A6D066FDAC243DB /* Pods-HaidoraViewControllerConfig_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F3B4CACB3893080AAA4ADDC1C185C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99355B3A4208CEEA655B60AB7D675FC5 /* Aspects-umbrella.h in Headers */,
+				4927D980EB038B019BE534AA57A3A55A /* Aspects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4AB17D5624A7BD9902928119 /* Pods-HaidoraViewControllerConfig_Example */ = {
+		BE5BD1610EDEC8E220AFE8713C7E4282 /* HaidoraViewControllerConfig */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A8E95203DB193A206FFDA67 /* Build configuration list for PBXNativeTarget "Pods-HaidoraViewControllerConfig_Example" */;
+			buildConfigurationList = 2AA6ED7CD6B5A0D1CC070CE8C8B29965 /* Build configuration list for PBXNativeTarget "HaidoraViewControllerConfig" */;
 			buildPhases = (
-				D2F3664E73D7855753DC6BA5 /* Sources */,
-				D2F877419C53BD2932F7D609 /* Frameworks */,
+				8273270D03EE7CCD88ADB47FF48407CA /* Sources */,
+				CD05F86C5E29EE005F9F0BE868CCF647 /* Frameworks */,
+				53AE66ED8B2C97161AAA23A7960556A8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C5A08397F687D2B967F42E44 /* PBXTargetDependency */,
-				A62765B1EAD7C3DF0D2B26D9 /* PBXTargetDependency */,
+				EF8E23E0F1395381EB0AF995682B1AC6 /* PBXTargetDependency */,
+			);
+			name = HaidoraViewControllerConfig;
+			productName = HaidoraViewControllerConfig;
+			productReference = 7136707F34DE363A79CEF43EBD3AE2E8 /* HaidoraViewControllerConfig.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1E49F1C0E3DCC3B816271BB38319EAB /* Pods-HaidoraViewControllerConfig_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F77AE5ED3EB119EFEA9BB8C1C29539 /* Build configuration list for PBXNativeTarget "Pods-HaidoraViewControllerConfig_Example" */;
+			buildPhases = (
+				A0CE89788F32DCBE65678E86C30AF61E /* Sources */,
+				9843942609A18136411AC2A88314A5E5 /* Frameworks */,
+				6C52BCD4AAADEA15A222E612A50028A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB0952E2AEA1347FBAFBFADA9A4FB72 /* PBXTargetDependency */,
+				CEF98F83020EDB5AD16BB2D8D0F5C2CC /* PBXTargetDependency */,
 			);
 			name = "Pods-HaidoraViewControllerConfig_Example";
 			productName = "Pods-HaidoraViewControllerConfig_Example";
-			productReference = C314474DB20B50372F13CE8E /* libPods-HaidoraViewControllerConfig_Example.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = BBF640BC21DC3A27E649A0B7BFBD921E /* Pods_HaidoraViewControllerConfig_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		8280FE91BC08279A244232D3 /* Pods-HaidoraViewControllerConfig_Example-Aspects */ = {
+		C766897D56D8A815526A1B61D99EA0CA /* Aspects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1FBE4304FB2920D894D9E96 /* Build configuration list for PBXNativeTarget "Pods-HaidoraViewControllerConfig_Example-Aspects" */;
+			buildConfigurationList = 36AC6EAD5B748ED9BB6C05E0808C6B2E /* Build configuration list for PBXNativeTarget "Aspects" */;
 			buildPhases = (
-				582E91F8A6795CC4A598606A /* Sources */,
-				0998B85BF07D821E6F6D78B6 /* Frameworks */,
-				9A51A87762A419508D5A315F /* Headers */,
+				01F1EEC669A37DC92B6ED05EA9DB75E0 /* Sources */,
+				D2B30C33B286A889588F5BAE789E9485 /* Frameworks */,
+				F2F3B4CACB3893080AAA4ADDC1C185C2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-HaidoraViewControllerConfig_Example-Aspects";
-			productName = "Pods-HaidoraViewControllerConfig_Example-Aspects";
-			productReference = 3392C25644EF52872E4CEE6E /* libPods-HaidoraViewControllerConfig_Example-Aspects.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A45CB3BE9A759E32A6694003 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68812CD05EE7EBC5700E1A7B /* Build configuration list for PBXNativeTarget "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig" */;
-			buildPhases = (
-				2BE963C38DADC865654B1D1F /* Sources */,
-				9BD8C77516AA249C35244FB6 /* Frameworks */,
-				1813EBD19A4A6059FFC6784B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8CD6DD1D79C6D86CF34A9C87 /* PBXTargetDependency */,
-			);
-			name = "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig";
-			productName = "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig";
-			productReference = AC83FA0EC14CB20F7BC51BE9 /* libPods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig.a */;
-			productType = "com.apple.product-type.library.static";
+			name = Aspects;
+			productName = Aspects;
+			productReference = 5F3A6FD6B9AF1034CEFDB0EDE71658F5 /* Aspects.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1E3182199C21FA06BD23EB3 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 7E3C2CA751B6FD9D56138E8F /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D5393D917935AB968561E6AE;
-			productRefGroup = 4523A6FC66FF9AF9F6B895C7 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 150ACDE4BED4EF0F47731D1A9815AB88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AB17D5624A7BD9902928119 /* Pods-HaidoraViewControllerConfig_Example */,
-				8280FE91BC08279A244232D3 /* Pods-HaidoraViewControllerConfig_Example-Aspects */,
-				A45CB3BE9A759E32A6694003 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig */,
+				C766897D56D8A815526A1B61D99EA0CA /* Aspects */,
+				BE5BD1610EDEC8E220AFE8713C7E4282 /* HaidoraViewControllerConfig */,
+				C1E49F1C0E3DCC3B816271BB38319EAB /* Pods-HaidoraViewControllerConfig_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BE963C38DADC865654B1D1F /* Sources */ = {
+		01F1EEC669A37DC92B6ED05EA9DB75E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142168B93C25DA0EBD6176F9 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-dummy.m in Sources */,
-				8E9A3A0224CAC52ECAB01BF3 /* UIViewController+HDLayout.m in Sources */,
-				030C0B865842C9694D0E6D6C /* UIViewController+HDStyle.m in Sources */,
+				BFEBC6EFDEA6FAB274CEA8F8963235B6 /* Aspects-dummy.m in Sources */,
+				839AC19FD3A0ACD7FCEBF5BA75716551 /* Aspects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		582E91F8A6795CC4A598606A /* Sources */ = {
+		8273270D03EE7CCD88ADB47FF48407CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D76B7166ACC0264B1EA9E17 /* Aspects.m in Sources */,
-				E9615B24AD60261013056A51 /* Pods-HaidoraViewControllerConfig_Example-Aspects-dummy.m in Sources */,
+				76ACA196BF3B9679688E90BDB40593EA /* HaidoraViewControllerConfig-dummy.m in Sources */,
+				B67CD88A6342AEFFF459A8E3F8F8B8C1 /* UIViewController+HDLayout.m in Sources */,
+				807E5FF8EE28F21CB0554A9BC84E9720 /* UIViewController+HDStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2F3664E73D7855753DC6BA5 /* Sources */ = {
+		A0CE89788F32DCBE65678E86C30AF61E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C7490C210D528DC4C214994 /* Pods-HaidoraViewControllerConfig_Example-dummy.m in Sources */,
+				FFBA38BF4011F9CFDB6B892EE540A1FF /* Pods-HaidoraViewControllerConfig_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8CD6DD1D79C6D86CF34A9C87 /* PBXTargetDependency */ = {
+		5FB0952E2AEA1347FBAFBFADA9A4FB72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-HaidoraViewControllerConfig_Example-Aspects";
-			target = 8280FE91BC08279A244232D3 /* Pods-HaidoraViewControllerConfig_Example-Aspects */;
-			targetProxy = 1F8D81CEFC35A4D9EE8C6B9C /* PBXContainerItemProxy */;
+			name = Aspects;
+			target = C766897D56D8A815526A1B61D99EA0CA /* Aspects */;
+			targetProxy = 8CBF3316F0A25C7FB2634402ADF0C0EC /* PBXContainerItemProxy */;
 		};
-		A62765B1EAD7C3DF0D2B26D9 /* PBXTargetDependency */ = {
+		CEF98F83020EDB5AD16BB2D8D0F5C2CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig";
-			target = A45CB3BE9A759E32A6694003 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig */;
-			targetProxy = AC67CEDFF3FAB69099E4C86E /* PBXContainerItemProxy */;
+			name = HaidoraViewControllerConfig;
+			target = BE5BD1610EDEC8E220AFE8713C7E4282 /* HaidoraViewControllerConfig */;
+			targetProxy = 5F21258CD671C3264E5B51A0FC2C2608 /* PBXContainerItemProxy */;
 		};
-		C5A08397F687D2B967F42E44 /* PBXTargetDependency */ = {
+		EF8E23E0F1395381EB0AF995682B1AC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-HaidoraViewControllerConfig_Example-Aspects";
-			target = 8280FE91BC08279A244232D3 /* Pods-HaidoraViewControllerConfig_Example-Aspects */;
-			targetProxy = F43D97F6C48083DDE7381B8A /* PBXContainerItemProxy */;
+			name = Aspects;
+			target = C766897D56D8A815526A1B61D99EA0CA /* Aspects */;
+			targetProxy = BED01E501AA5836F731C5595294D1649 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		074B5097D9691A11870AA45D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC9B7B93B0B25B3DBE04E44D /* Pods-HaidoraViewControllerConfig_Example.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1A7774230303B42CE77A9521 /* Release */ = {
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -451,71 +468,7 @@
 			};
 			name = Release;
 		};
-		262E0A600AD6477D57F1F07A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67C34BB5838E65459C89DE19 /* Pods-HaidoraViewControllerConfig_Example-Aspects-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraViewControllerConfig_Example-Aspects/Pods-HaidoraViewControllerConfig_Example-Aspects-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4F7C305AEEE0E2E3AEE5E154 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F0A9395A04239B099FE9A64 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig/Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A330B49669B9CE36E64D5EBD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67C34BB5838E65459C89DE19 /* Pods-HaidoraViewControllerConfig_Example-Aspects-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraViewControllerConfig_Example-Aspects/Pods-HaidoraViewControllerConfig_Example-Aspects-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D851C635EFDD1A04F4A7DEDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F0A9395A04239B099FE9A64 /* Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig/Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		DE83933EF48A67BC23271C3F /* Debug */ = {
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -554,62 +507,214 @@
 			};
 			name = Debug;
 		};
-		F496B8B7E250C99DA1349519 /* Debug */ = {
+		0F1C44A7744755D711169D84B1FC7DE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 480D6C2632A91BB3CC700A10 /* Pods-HaidoraViewControllerConfig_Example.debug.xcconfig */;
+			baseConfigurationReference = E0AD70904CA5E7A527C75DB2B9FC6134 /* HaidoraViewControllerConfig.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaidoraViewControllerConfig/HaidoraViewControllerConfig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HaidoraViewControllerConfig/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HaidoraViewControllerConfig/HaidoraViewControllerConfig.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HaidoraViewControllerConfig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E9CA9166C0BEC3CCC83515FB2E8263E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB1E8388CABA7088704625E2F3E000E /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A156E1F02FB879083960BE93C93E23B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB1E8388CABA7088704625E2F3E000E /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAB979D032611C28ADD66CDF0DCAE705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AD70904CA5E7A527C75DB2B9FC6134 /* HaidoraViewControllerConfig.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaidoraViewControllerConfig/HaidoraViewControllerConfig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HaidoraViewControllerConfig/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HaidoraViewControllerConfig/HaidoraViewControllerConfig.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HaidoraViewControllerConfig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1ACA304E86C3FDA82776AD14D644514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0A0B6C0A8EF378BA0A7F4A4F505A0F /* Pods-HaidoraViewControllerConfig_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraViewControllerConfig_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraViewControllerConfig_Example/Pods-HaidoraViewControllerConfig_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_HaidoraViewControllerConfig_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		CC54D1DFE99BCDAA55F87A792457C1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC34C0A14050F474FEB2D62E682D23A /* Pods-HaidoraViewControllerConfig_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraViewControllerConfig_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraViewControllerConfig_Example/Pods-HaidoraViewControllerConfig_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HaidoraViewControllerConfig_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A8E95203DB193A206FFDA67 /* Build configuration list for PBXNativeTarget "Pods-HaidoraViewControllerConfig_Example" */ = {
+		2AA6ED7CD6B5A0D1CC070CE8C8B29965 /* Build configuration list for PBXNativeTarget "HaidoraViewControllerConfig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F496B8B7E250C99DA1349519 /* Debug */,
-				074B5097D9691A11870AA45D /* Release */,
+				0F1C44A7744755D711169D84B1FC7DE4 /* Debug */,
+				BAB979D032611C28ADD66CDF0DCAE705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68812CD05EE7EBC5700E1A7B /* Build configuration list for PBXNativeTarget "Pods-HaidoraViewControllerConfig_Example-HaidoraViewControllerConfig" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D851C635EFDD1A04F4A7DEDC /* Debug */,
-				4F7C305AEEE0E2E3AEE5E154 /* Release */,
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E3C2CA751B6FD9D56138E8F /* Build configuration list for PBXProject "Pods" */ = {
+		36AC6EAD5B748ED9BB6C05E0808C6B2E /* Build configuration list for PBXNativeTarget "Aspects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE83933EF48A67BC23271C3F /* Debug */,
-				1A7774230303B42CE77A9521 /* Release */,
+				9E9CA9166C0BEC3CCC83515FB2E8263E /* Debug */,
+				A156E1F02FB879083960BE93C93E23B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1FBE4304FB2920D894D9E96 /* Build configuration list for PBXNativeTarget "Pods-HaidoraViewControllerConfig_Example-Aspects" */ = {
+		F4F77AE5ED3EB119EFEA9BB8C1C29539 /* Build configuration list for PBXNativeTarget "Pods-HaidoraViewControllerConfig_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				262E0A600AD6477D57F1F07A /* Debug */,
-				A330B49669B9CE36E64D5EBD /* Release */,
+				C1ACA304E86C3FDA82776AD14D644514 /* Debug */,
+				CC54D1DFE99BCDAA55F87A792457C1EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C1E3182199C21FA06BD23EB3 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
